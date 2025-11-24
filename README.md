@@ -1,7 +1,7 @@
 # INDIA-GENERAL-ELECTION-RESULTS-ANALYSIS 2024
 ## 📊 Power BI Dashboard – India General Election Results 2024
 
-📘 Project Overview
+⭐ Project Overview
 
 This Power BI project provides an interactive and comprehensive visualization of the 2024 Indian General Election Results.
 It focuses on analyzing seat distribution, party performance, alliance dominance, and voter behavior at national, state, and constituency levels.
@@ -16,7 +16,7 @@ To allow users to export election data for further analysis.
 
 🧭 Dashboard Summary
 
-🏠 Dashboard 6: Landing Page
+🏠 Dashboard 1,6: Landing Page
 
 Acts as the navigation hub of the report.
 Features:
@@ -236,3 +236,161 @@ statewise_results
 states
 
 The entire analysis was performed in SQL Server, including data cleaning, transformation, exploratory analysis, and advanced queries.
+
+
+## 🔧 Data Cleaning & Preparation
+
+Added a new field: party_alliance
+
+Classified each party into:
+
+NDA
+
+I.N.D.I.A
+
+OTHER
+
+Standardized party names and alliances
+Ensured consistency in constituency and state data
+
+
+## 📈 Exploratory & Advanced Analysis
+
+The project covers:
+
+Total seats, state-wise seats, party-wise seats
+
+Alliance-wise performance (NDA vs I.N.D.I.A vs Others)
+
+Candidate-level votes, vote margins
+
+EVM vs Postal vote breakdown
+
+Winning vs runner-up analysis
+
+State-level election summaries
+
+Use of CTEs, Window Functions, ROW_NUMBER(), CASE WHEN, and Joins
+
+Reusable Stored Procedures for dynamic querying
+
+
+## ⭐ Key Problem Statements Solved
+
+1. Total seats in India
+
+Counted all parliamentary constituencies.
+
+2. State-wise total seats
+
+Calculated seats per state using multiple joins.
+
+3. Total seats won by NDA
+
+Dynamic calculation using the NDA party list.
+
+4. Seats won by individual NDA parties
+
+5. Total seats won by I.N.D.I.A Alliance
+
+6. Seats won by individual I.N.D.I.A parties
+
+7. Added party_allianz field
+
+Mapped every party to the correct alliance.
+
+8. Which alliance won the most seats?
+
+NDA vs I.N.D.I.A vs Others comparison.
+
+9. State + Constituency level winner details
+
+   For any constituency (ex: Nashik, Maharashtra):
+
+Winning candidate
+
+Party
+
+Alliance
+
+Votes received
+
+Winning margin
+
+10. EVM vs Postal Vote Distribution
+
+For each constituency:
+
+Candidate
+
+Party
+
+EVM votes
+
+Postal votes
+
+
+11. Most successful party in each state
+
+12. Alliance-wise seat distribution per state
+
+13. Top 10 candidates by EVM votes
+
+Using Window Functions.
+
+14. Top 10 candidates by Postal votes
+
+15. Winner & Runner-up per constituency
+
+Implemented with CTE + ROW_NUMBER() OVER()
+
+16. State Election Summary (Example: Maharashtra)
+
+Includes:
+
+Total seats
+
+Total candidates
+
+Total parties
+
+Total votes
+
+EVM vote sum
+
+Postal vote sum
+
+
+17. Created Dynamic Stored Procedures
+
+GetConstituencyVotes
+
+GetPartySeatsByState
+
+GetTopCandidatesByState
+
+GetElectionSummaryByState
+
+
+## ⭐ Final Summary
+
+This SQL project provides a complete, end-to-end analytical view of the India General Election Results 2024. It covers the entire workflow—from data cleaning and transformation to advanced querying and insight generation.
+
+By integrating multiple datasets such as party-wise results, constituency details, and state-level summaries, the project delivers a structured and scalable analytical framework. Advanced SQL techniques including window functions, CTEs, conditional logic, joins, and stored procedures were used to extract actionable insights on party performance, alliance strength, candidate competitiveness, and voting patterns (EVM vs Postal).
+
+The analysis supports a wide range of decision-making needs, enabling users to explore:
+
+Overall and state-wise seat distribution
+
+Alliance-wise performance (NDA vs I.N.D.I.A vs Others)
+
+Candidate-level vote margins
+
+Detailed constituency outcomes
+
+State election summaries
+
+High-performing parties and candidates
+
+
+This project serves as a robust backend foundation for the accompanying Power BI dashboard, demonstrating strong skills in SQL data modeling, analytical logic, and election data interpretation. It highlights the ability to convert raw data into meaningful, structured insights that can support researchers, analysts, and data-driven applications.
