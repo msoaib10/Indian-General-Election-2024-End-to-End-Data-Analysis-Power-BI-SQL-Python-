@@ -7,16 +7,16 @@ This Power BI project provides an interactive and comprehensive visualization of
 It focuses on analyzing seat distribution, party performance, alliance dominance, and voter behavior at national, state, and constituency levels.
 The dashboards are designed to help political analysts, researchers, policymakers, and citizens gain data-driven insights into the election outcomes.
 
-###🎯 Objectives
+### ⭐ Objectives
 
 To visualize national-level election results for NDA, I.N.D.I.A., and Independent/Other parties.
 To enable state-wise and constituency-wise performance analysis using interactive maps and visuals.
 To provide drill-through analysis for deeper insights at granular levels.
 To allow users to export election data for further analysis.
 
-### 🧭 Dashboard Summary
+### ⭐ Dashboard Summary
 
-### 🏠 Dashboard 1,6: Landing Page
+### ⭐ Dashboard 1,6: Landing Page
 
 Acts as the navigation hub of the report.
 Features:
@@ -40,7 +40,7 @@ Independent & Other Parties
 Party-wise seat distribution with logos.
 Bookmark navigation to detailed grid views for each alliance.
 
-Visuals Used:
+### Visuals Used:
 KPI Cards
 Clustered Bar Charts
 Matrix/Grid Table with Drill-through Bookmarks
@@ -48,7 +48,7 @@ Party Logos for identification
 
 
 
-🗺 Dashboard 2: State Demographic Analysis
+### ⭐ Dashboard 2: State Demographic Analysis
 
 Focuses on state-level and constituency-level insights.
 Features:
@@ -65,24 +65,24 @@ Drill-through to detailed tables.
 3. Top Performing State
 Highlights the state with the maximum seats won by either NDA or I.N.D.I.A. alliance.
 
-Visuals Used:
+### Visuals Used:
 Map Charts
 Bubble Maps
 Drill-through Tables
 
 
 
-🧩 Dashboard 3: Political Landscape by State
+### ⭐ Dashboard 3: Political Landscape by State
 
 Allows users to explore state-wise political distribution interactively.
 
-Key Metrics:
+### Key Metrics:
 Seats won by:
 NDA Alliance
 I.N.D.I.A. Alliance
 Independent & Other Parties
 
-Visuals Used:
+### Visuals Used:
 State Map Chart (showing constituencies)
 Party-wise Result Table (with alliance info)
 Donut Chart (Party-wise Seat Share %)
@@ -93,11 +93,11 @@ Helps analyze party dominance and alliance comparison within any selected state.
 
 
 
-🗳 Dashboard 4: Constituency Analysis
+### ⭐ Dashboard 4: Constituency Analysis
 
 Provides detailed insights at the constituency level.
 
-Primary KPIs:
+### Primary KPIs:
 Total Votes cast
 Total EVM Votes
 Total Postal Votes
@@ -106,7 +106,7 @@ Secondary KPIs:
 Winning Candidate (Name, Party, Vote Share %)
 Runner-Up Candidate
 
-2nd Runner-Up Candidate
+### 2nd Runner-Up Candidate
 Visuals Used:
 KPI Cards
 Comparison Tables
@@ -114,18 +114,18 @@ Drill-through Button (to Details Grid)
 
 
 
-📋 Dashboard 5: Details Grid
+### ⭐ Dashboard 5: Details Grid
 
 Acts as a data exploration and export dashboard.
 
-Table Fields:
+### Table Fields:
 Constituency Name
 Winning & Runner-Up Candidates
 Winning Party & Alliance
 EVM Votes, Postal Votes, Total Votes
 Margin (Vote Difference)
 
-Functionalities:
+### Functionalities:
 
 Drill-through from other dashboards
 “Show All Data” bookmark button
@@ -133,7 +133,7 @@ Export to Excel feature
 
 
 
-⚙ Tools & Technologies Used
+### ⚙ Tools & Technologies Used
 
 Category	Tools/Technologies
 
@@ -147,7 +147,7 @@ Design Principles	Clean UI, Responsive Layout, Color-coded alliances (NDA, I.N.D
 
 
 
-🧮 Key DAX Measures
+### ⭐ Key DAX Measures
 
 Some of the main calculated measures include:
 Total Seats Won (NDA / I.N.D.I.A. / Others)
@@ -158,7 +158,7 @@ Margin = Winning Votes – Runner-Up Votes
 
 
 
-📈 Insights Generated
+### 📈 Insights Generated
 
 NDA secured 292 seats (54%), forming the majority.
 
@@ -172,7 +172,7 @@ Constituency-level data highlights voter turnout and competitiveness.
 
 
 
-🧰 Project Highlights
+### ⭐ Project Highlights
 
 ✅ Fully interactive Power BI Report
 ✅ State and Constituency-level Drill-throughs
@@ -182,7 +182,7 @@ Constituency-level data highlights voter turnout and competitiveness.
 
 
 
-🚀 How to Use
+### ⭐ How to Use
 
 1. Open the Power BI .pbix file or hosted Power BI report link.
 2. Navigate via the Landing Page.
@@ -192,7 +192,7 @@ Constituency-level data highlights voter turnout and competitiveness.
 
 
 
-📁 Folder Structure (Suggested for GitHub)
+### ⭐ Folder Structure (Suggested for GitHub)
 
 India-General-Election-Results-2024/
 │
@@ -218,12 +218,12 @@ India-General-Election-Results-2024/
     
 ## 📊 SQL Project – India General Election Results Analysis (2024)
 
-📌 Overview
+### ⭐ Overview
 
 This project focuses on performing an end-to-end SQL analysis of the India General Elections 2024 dataset.
 The goal is to extract meaningful insights from constituency-level results, party performance, alliance comparisons (NDA / I.N.D.I.A / Others), voting patterns, and candidate-level details.
 
-The dataset consisted of multiple connected tables:
+### The dataset consisted of multiple connected tables:
 
 partywise_results
 
@@ -238,7 +238,7 @@ states
 The entire analysis was performed in SQL Server, including data cleaning, transformation, exploratory analysis, and advanced queries.
 
 
-## 🔧 Data Cleaning & Preparation
+## ⭐ Data Cleaning & Preparation
 
 Added a new field: party_alliance
 
@@ -256,7 +256,7 @@ Ensured consistency in constituency and state data
 
 ## 📈 Exploratory & Advanced Analysis
 
-The project covers:
+### The project covers:
 
 Total seats, state-wise seats, party-wise seats
 
