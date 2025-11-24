@@ -1,5 +1,5 @@
 # INDIA-GENERAL-ELECTION-RESULTS-ANALYSIS---2024
-## 1. India General Election Results Analysis – 2024 (Power BI Project)
+## 📊 1. Power BI Dashboard – India General Election Results 2024
 
 📘 Project Overview
 
@@ -211,4 +211,7 @@ India-General-Election-Results-2024/
 └── Documentation/
     └── Problem_Statement.pdf
 
+
+
     
+## 🗄 2. SQL Analysis – India General Election Results 2024
