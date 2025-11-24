@@ -1,6 +1,6 @@
 # INDIA-GENERAL-ELECTION-RESULTS-ANALYSIS 2024
 
-## 📊 Power BI Dashboard – India General Election Results 2024
+## 📊 Power BI Dashboard – India General Election Results (2024)
 
 ### ⭐ Project Overview
 
@@ -15,7 +15,7 @@ To enable state-wise and constituency-wise performance analysis using interactiv
 To provide drill-through analysis for deeper insights at granular levels.
 To allow users to export election data for further analysis.
 
-### ⭐ Dashboard Summary
+## ⭐ Dashboard Summary
 
 ### ⭐ Dashboard 1,6: Landing Page
 
