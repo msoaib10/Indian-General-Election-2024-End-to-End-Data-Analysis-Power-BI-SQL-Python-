@@ -1,4 +1,5 @@
-# INDIA-GENERAL-ELECTION-RESULTS-ANALYSIS 2024
+# ![flg](https://github.com/user-attachments/assets/f3c3832a-0552-466d-80f8-e2580d063d1b)
+INDIA-GENERAL-ELECTION-RESULTS-ANALYSIS 2024
 ## 📊 Power BI Dashboard – India General Election Results 2024
 
 ### ⭐ Project Overview
